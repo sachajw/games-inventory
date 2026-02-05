@@ -1,0 +1,231 @@
+{
+  "build_name": "LeopardPants",
+  "class": "Veteran",
+  "author": "thevestedleopard",
+  "talents": [
+    {
+      "name": "Demolition Team",
+      "slug": "demolition-team",
+      "type": "Passive",
+      "focus": ["Grenade", "Sustain", "Support", "Anti Elite"],
+      "description": "You have a 5% chance to replenish a Grenade when you or an Ally in Coherency Kills an Elite or Specialist Enemy."
+    },
+    {
+      "name": "Tactical Reload",
+      "slug": "tactical-reload",
+      "type": "Passive",
+      "focus": ["Ranged"],
+      "description": "+25% Reload Speed if your weapon contains Ammo."
+    },
+    {
+      "name": "Volley Adept",
+      "slug": "volley-adept",
+      "type": "Passive",
+      "focus": ["Ranged", "Anti Elite"],
+      "description": "+30% Reload Speed on Elite & Specialist Enemy Kill."
+    },
+    {
+      "name": "Keep Their Heads Down!",
+      "slug": "keep-their-heads-down",
+      "type": "Passive",
+      "focus": ["Ranged"],
+      "description": "+75% Ranged Attack Suppression."
+    },
+    {
+      "name": "Exploit Weakness",
+      "slug": "exploit-weakness",
+      "type": "Passive",
+      "focus": ["Melee", "Damage"],
+      "description": "Melee Critical Hits increase Damage by 20% for 6s."
+    },
+    {
+      "name": "Toughness Boost",
+      "slug": "toughness-boost-17",
+      "type": "Operative Modifier",
+      "focus": ["Defence"],
+      "description": "+25 Toughness."
+    },
+    {
+      "name": "Out for Blood",
+      "slug": "out-for-blood",
+      "type": "Passive",
+      "focus": ["Defence", "Sustain"],
+      "description": "Your Kills Replenish an additional 5% Toughness."
+    },
+    {
+      "name": "Skirmisher",
+      "slug": "skirmisher",
+      "type": "Passive",
+      "focus": ["Damage", "Mobility", "Stacks", "Timed Buffs"],
+      "description": "+6.25% to all Base Damage for 10s after Sprinting or Sliding. Stacks 4 times."
+    },
+    {
+      "name": "Desperado",
+      "slug": "desperado",
+      "type": "Passive",
+      "focus": ["Melee", "Damage"],
+      "description": "+10% Melee Critical Hit Chance & +25% Melee Finesse Bonus."
+    },
+    {
+      "name": "Smoke Grenade",
+      "slug": "smoke-grenade",
+      "type": "Blitz",
+      "focus": ["Grenade"],
+      "description": "Throw a grenade that creates a lingering smoke cloud for 15s. The cloud blocks line of sight for most enemies and reduces the sight range of enemies inside it."
+    },
+    {
+      "name": "Infiltrate",
+      "slug": "infiltrate",
+      "type": "Ability",
+      "focus": ["Damage", "Defence", "Sustain", "Mobility", "Cooldown", "Timed Buffs"],
+      "description": "Replenish all Toughness and enter Stealth for 8s, gaining +25% Movement Speed. Leaving Stealth Suppresses nearby Enemies. While in Stealth, and for 5s afterwards, you have +30% Damage. Attacking makes you leave Stealth. Base Cooldown: 45s."
+    },
+    {
+      "name": "Leave No One Behind",
+      "slug": "leave-no-one-behind",
+      "type": "Passive",
+      "focus": ["Damage", "Defence", "Mobility", "Support", "Timed Buffs"],
+      "description": "+20% Assist Speed & Revive Speed. +20% Movement Speed and Stun Immunity when moving towards a Knocked Down or Incapacitated Ally. Whenever you Revive a Knocked Down Ally, they receive +33% Damage Reduction for 5s."
+    },
+    {
+      "name": "Grenadier",
+      "slug": "grenadier",
+      "type": "Passive",
+      "focus": ["Grenade"],
+      "description": "You can carry 1 extra Grenade(s). 20% chance to throw an additional Grenade (this still only consumes a single Grenade)."
+    },
+    {
+      "name": "Rending Strikes",
+      "slug": "rending-strikes",
+      "type": "Passive",
+      "focus": ["Damage"],
+      "description": "Gives +10% Rending to all weapons."
+    },
+    {
+      "name": "Close and Kill",
+      "slug": "close-and-kill",
+      "type": "Aura",
+      "focus": ["Mobility", "Support"],
+      "description": "+5% Movement Speed for you and Allies in Coherency."
+    },
+    {
+      "name": "Reciprocity",
+      "slug": "reciprocity",
+      "type": "Passive",
+      "focus": ["Damage", "Mobility", "Stacks"],
+      "description": "+5% Critical Hit Chance for 8s on successful Dodge. Stacks 5 times."
+    },
+    {
+      "name": "Agile Engagement",
+      "slug": "agile-engagement",
+      "type": "Passive",
+      "focus": ["Melee", "Ranged", "Damage"],
+      "description": "Killing an enemy with a Melee Attack grants +25% Ranged Damage and killing an enemy with a Ranged Attack grants +25% Melee Damage. Lasts 6s."
+    },
+    {
+      "name": "Serrated Blade",
+      "slug": "serrated-blade",
+      "type": "Passive",
+      "focus": ["Melee", "Dot"],
+      "description": "2 Stack(s) of Bleed to the target on Melee Hit."
+    },
+    {
+      "name": "Trench Fighter Drill",
+      "slug": "trench-fighter-drill",
+      "type": "Passive",
+      "focus": ["Melee"],
+      "description": "+10% Melee Attack Speed."
+    },
+    {
+      "name": "Onslaught",
+      "slug": "onslaught",
+      "type": "Passive",
+      "focus": ["Stacks"],
+      "description": "Continuous hits to a Single Target applies 2.5% Brittleness for 5 seconds to the target. Stacks 16 times."
+    },
+    {
+      "name": "Low Profile",
+      "slug": "low-profile",
+      "type": "Ability Modifier",
+      "focus": [],
+      "description": "-90% Threat for 10s on leaving Stealth."
+    },
+    {
+      "name": "Catch a Breath",
+      "slug": "catch-a-breath",
+      "type": "Passive",
+      "focus": ["Melee", "Defence", "Sustain", "Timed Buffs"],
+      "description": "When you haven't been the target of a Melee Attack for 5s, you start to replenish 5% Toughness per second."
+    },
+    {
+      "name": "Opening Salvo",
+      "slug": "opening-salvo",
+      "type": "Passive",
+      "focus": ["Ranged", "Damage"],
+      "description": "The first 20% Ammo after a Reload has +10% Ranged Critical Hit Chance."
+    },
+    {
+      "name": "Kill Zone",
+      "slug": "kill-zone",
+      "type": "Passive",
+      "focus": ["Melee", "Ranged", "Damage", "Timed Buffs"],
+      "description": "+15% Base Ranged Damage when you have avoided Melee Attacks for 8s."
+    },
+    {
+      "name": "Executioner's Stance",
+      "slug": "executioners-stance",
+      "type": "Ability",
+      "focus": ["Ranged", "Damage", "Defence", "Sustain", "Cooldown", "Anti Elite", "Timed Buffs"],
+      "description": "Enter Ranged Stance for 5s. When in Ranged Stance you instantly equip your ranged weapon, deal +25% Ranged Damage, +25% Ranged Weakspot Damage, replenish 10% Toughness each second, and your Spread and Recoil are greatly reduced. Human-sized Elite Enemies and Specialist Enemies are highlighted for 5s. Killing a highlighted Enemy refreshes the duration of its bonuses for 5s. Base Cooldown: 30s."
+    },
+    {
+      "name": "Shock Trooper",
+      "slug": "shock-trooper",
+      "type": "Passive",
+      "focus": ["Ranged", "Damage"],
+      "description": "Critical Hits with Las-weapons consume no Ammo."
+    },
+    {
+      "name": "Enhanced Target Priority",
+      "slug": "enhanced-target-priority",
+      "type": "Ability Modifier",
+      "focus": ["Support", "Anti Elite"],
+      "description": "Executioner's Stance now outlines Elite & Specialist Enemies for Allies in Coherency for 5s."
+    },
+    {
+      "name": "Get Back in the Fight!",
+      "slug": "get-back-in-the-fight",
+      "type": "Passive",
+      "focus": ["Defence", "Stamina", "Cooldown", "Timed Buffs"],
+      "description": "Stun Immunity, Slow Immunity for 6s & restore +50% Stamina when your Toughness is broken. 20s Cooldown."
+    },
+    {
+      "name": "Counter-Fire",
+      "slug": "counter-fire",
+      "type": "Ability Modifier",
+      "focus": ["Ranged"],
+      "description": "Executioner's Stance now outlines all human-sized Ranged Enemies."
+    },
+    {
+      "name": "Exhilarating Takedown",
+      "slug": "exhilarating-takedown",
+      "type": "Passive",
+      "focus": ["Ranged", "Damage", "Defence", "Sustain", "Stacks"],
+      "description": "Replenish 15% Toughness and gain +10% Toughness Damage Reduction for 8s on Ranged Weakspot Kill. Stacks 3 times. Stacks Decay one at a time."
+    },
+    {
+      "name": "Hunter's Resolve",
+      "slug": "hunters-resolve",
+      "type": "Ability Modifier",
+      "focus": ["Damage", "Defence"],
+      "description": "Infiltrate provides +50% Toughness Damage Reduction for 10s on leaving Stealth."
+    },
+    {
+      "name": "Competitive Urge",
+      "slug": "competitive-urge",
+      "type": "Passive",
+      "focus": ["Melee", "Damage", "Timed Buffs"],
+      "description": "2.5% chance of +20% Base Damage, +20% Melee Impact & +20% Suppression for 8s whenever an Ally kills an Enemy."
+    }
+  ]
+}
